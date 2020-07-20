@@ -1,0 +1,44 @@
+<!--
+ * @Description: 
+ * @Version: 1.0
+ * @Autor: 
+ * @Date: 2020-07-20 11:53:05
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2020-07-20 11:59:25
+--> 
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 1000px;
+        }
+    </style>
+</head>
+
+<body>
+<div style="height: 500px;">
+    Hello world
+    <button>button</button>
+    <br />
+    <input type="text">
+</div>
+</body>
+<script src="../lib/watermark.min.js"></script>
+<script>
+    const waterMark = new WaterMark({
+        text: '兔子零84',
+        id: 'water-mark',
+        height: 100,
+        width: 150,
+        font: '14px sans-serif',
+        rotate: -30,
+        fillStyle: '#ccc',
+        opacity: 0.5
+    })
+</script>
+
+</html>
